@@ -1,33 +1,35 @@
 .container-items{
+  width: 90%;
   margin: 0 auto;
-  width: 80%;
   display: flex;
   -webkit-display: flex;
   -moz-display: flex;
 }
 
-.card{
-  max-width: 30%;
+.card-custom{
+  background-color: white;
   position: relative;
   border-radius: 4px;
-  margin:20px;
+  margin:10px;
   border: 1px solid #e8eaec;
 }
 
-.card-image{
+.card-custom-image{
   position: relative;
 }
 
-.card-title{
+.card-custom-title{
   color: #fff;
   position: absolute;
   bottom: 0;
   left: 0;
   max-width: 100%;
-  padding: 24px;
+  padding: 15px 15px 10px 15px;
+  font-size: 1.3rem;
+  text-shadow: 1px 1px 5px black;
 }
 
-.card-image img{
+.card-custom-image img{
   display: block;
   border-radius: 2px 2px 0 0;
   position: relative;
@@ -38,12 +40,20 @@
   width: 100%;
 }
 
-.card-content{
-  padding: 24px;
+.card-custom-content{
+  padding: 15px;
+  font-size: 0.9rem;
   border-radius: 0 0 2px 2px;
+  line-height: 1.3rem;
 }
 
-.card-link{
+.card-custom-link{
   border-top: 1px solid #e8eaec;
-  padding: 24px;
+  padding: 15px;
+}
+
+/* Esto va en el Style ppal*/
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: inherit;
 }
