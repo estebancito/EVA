@@ -161,3 +161,45 @@ height: 100%;
 }
 
 /* End Video Youtube */
+
+/* you will back button */
+.you-will-back{
+  margin: 20px;
+  display: inline-block;
+}
+
+.you-will-back-icon{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 0;
+  float: left;
+}
+
+.you-will-back-text{
+  float: left;
+  padding: 10px;
+}
+
+/* you will back button */
+
+/* Next button */
+.you-go-future{
+  margin: 20px;
+  display: inline-block;
+}
+
+.you-go-future-icon{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 0;
+  float: right;
+}
+
+.you-go-future-text{
+  float: left;
+  padding: 10px;
+}
+
+/* next button end */
